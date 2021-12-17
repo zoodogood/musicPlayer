@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="main/style.css">
+  <link rel="shortcut icon" href="main/img/link.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>𝖗𝖆𝖈𝖈𝖔𝖔𝖓</title>
+</head>
+<body class = "body" id = "body">
+  <div id="clock">
+    <h2>Текущее время</h2>
+    <div id="time">
+      <div><span id="hour">00</span><span>Часов</span></div>
+      <div><span id="minute">00</span><span>Минут</span></div>
+      <div><span id="second">00</span><span>Секунд</span></div>
+    </div>
+  </div>
+
+
+
+
+<div class="main">
+<input name = "file" type="file"  id="file" accept="audio/*" />
+<label for = "file" id = "label">Выбрать Трек</label>
+ <audio src="main/sound/one.mp3" id="audio" controls loop type="audio/mp3"></audio>
+  <canvas id="canvas" width=1200 height=400></canvas>
+</div>
+
+<div id = "volumeBox"></div>
+
+
+</body>
+<script src="main/particles/particles.js"></script>
+<script  src="main/particles.js"></script>
+<script src = "main/script.js"></script>
+</html>
